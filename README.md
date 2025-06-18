@@ -52,7 +52,7 @@ Modules:
 - GAGE
   - auth
   - rinex via https://gage-data.earthscope.org/archive/
-  - tiledn
+  - tiledb
  
 - Data in
   - boto3
@@ -76,7 +76,14 @@ Modules:
 
 ## Dask
 
-TBD
+- Computing with Multiple Cores
+  - Concurrent programming, multi-threading, parallel processing
+  - Lazy evaluation, dask delayed, dask compute
+- Task graphs and scheduling
+  - Visualize tasks
+  - Mult-threading vs parallel process, the GIL
+- Building pipelines
+  - 
 
 ## GPU - machine learning / LLM / JupyterAI
 
