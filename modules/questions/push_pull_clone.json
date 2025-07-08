@@ -1,0 +1,81 @@
+[
+    {
+               "question": "I want to collaborate on a project, which git command enables collabration?" ,
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "git clone https://github.com/anu/gnss_tools.git",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "git clone git@github.com:anu/gnss_tools.git",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "git clone -b latest https://github.com/anu/gnss_tools.git",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "git clone https://github.com/anu/gnss_tools",
+                "correct": false,
+                "feedback": "Incorrect."                
+            },
+            {
+                "answer": "git clone https://github.com/anu/gnss_tools -b latest",
+                "correct": false,
+                "feedback": "Deleted files are retained in previouse commits."
+            }
+        ]
+    },
+    {
+        "question": "When you pull from a repository, what two actions happen?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "git fetch",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "git merge",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "git branch",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "git commit",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "git add",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+
+        ]
+    },
+    {
+        "question": "git push -u origin main, publishes you code.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "true",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "false",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    }
+]

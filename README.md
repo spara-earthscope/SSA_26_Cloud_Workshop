@@ -34,7 +34,7 @@ Modules:
 
 ### Git
 - git client
-- gh
+- gh 
 - basic git
   - remote & origin
   - branches
@@ -83,7 +83,15 @@ Modules:
   - Visualize tasks
   - Mult-threading vs parallel process, the GIL
 - Building pipelines
-  - 
+  - Delayed objects, lazy evaluation, compute
+  - Functions and delaayed objects
+- Dask arrays
+  - Chunking, numpy vs dask arrays
+  - Dask array methods
+  - Custom functions over chunks
+- Dask dataframes, multi-dimensional arrays
+  - Read parquet, arrow, miniseed
+  - Xarray
 
 ## GPU - machine learning / LLM / JupyterAI
 

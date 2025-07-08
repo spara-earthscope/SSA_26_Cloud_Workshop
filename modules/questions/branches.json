@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Select all the ways to create a new branch.",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "git branch anu_features",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "git checkout -n anu_features",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "git branch --name anu_features",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "git checkout anu_features",
+                "correct": true,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "git branch main  ",
+                "correct": true,
+                "feedback": "Incorrect."
+            }
+        ]
+    },
+    {
+        "question": "This command, git branch -d anu_features, deletes an unmerged branch.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "When merging the anu_features branch into main, which branch should you check out?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "main",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "anu_features",
+                "correct": false,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "How do you list all the branches in a project",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "git branch -a",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "git branches -a",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "git branches",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "git branch",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "git list branch",
+                "correct": false,
+                "feedback": "Correct."
+            }
+        ]
+    }
+
+
+]
