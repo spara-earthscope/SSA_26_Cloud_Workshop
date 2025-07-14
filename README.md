@@ -33,12 +33,12 @@ Modules:
     - Terminal
 
 ### Git
-- git client
-- gh 
-- basic git
-  - remote & origin
-  - branches
-  - pull / add / commit / push
+
+[Introduction to Git](./modules/git.ipynb)
+- repositories
+- committing and fixing files
+- branches and mergin branches
+- push, pull, and clone
 
 ## Data In and Out
 
