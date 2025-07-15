@@ -2,43 +2,40 @@
 
 Modules:
 
-1. Jupyter & GeoLab
+1. GeoLab Fundamentals
 2. Data in and Data out
-3. Dask
-4. GPU (machine learning, LLMs - llamafile?)
+3. Workfows
+4. Dask
+5. GPU (machine learning, LLMs - llamafile?)
 
-## Jupyter & GeoLab
+## GeoLab Fundamentals
 
-### Notebook fundamentals
-
-- Notebook navigation
-- Managing kernels
-- Terminal
-- Storage
-  - home
-  - S3
-  - tmp
-  - scratch 
-
-### Package management
-
-- Environments
-  - Conda
-  - Pip
-
-- Packages
-  - Pinned packages
-  - Manage packages
-    - Notebook
-    - Terminal
-
-### Git
-
-[Introduction to Git](./modules/git.ipynb)
+### [Introduction to Git](./modules/git.ipynb)
 - repositories
 - committing and fixing files
 - branches and mergin branches
 - push, pull, and clone
+
+### [Package management](./modules/package_management.ipynb)
+
+- Packages and Package Managers
+  - Pip and Conda
+- Virtual Environments
+  - Creating Environments
+- Installing Packages
+- Exercise
+
+### [Notebook Basics](./modules/notebook.ipynb)
+
+- Understanding the Notebook Interface
+  - Working with Cells
+  - Cell Magics
+  - Saving Notebooks
+  - Export Notebooks
+  - Sharing Notebooks
+- Reading Python Code
+  - An Example
+  - Exercise
 
 ## Data In and Out
 
